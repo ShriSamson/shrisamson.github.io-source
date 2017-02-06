@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Curious Correlations - posts</title><link href="https://shrisamson.github.io/" rel="alternate"></link><link href="https://shrisamson.github.io/feeds/posts.atom.xml" rel="self"></link><id>https://shrisamson.github.io/</id><updated>2017-01-12T23:00:00-08:00</updated><entry><title>First Post</title><link href="https://shrisamson.github.io/first-post.html" rel="alternate"></link><published>2017-01-12T23:00:00-08:00</published><updated>2017-01-12T23:00:00-08:00</updated><author><name>Shri Samson</name></author><id>tag:shrisamson.github.io,2017-01-12:/first-post.html</id><summary type="html">
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Hello"&gt;Hello&lt;a class="anchor-link" href="#Hello"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Here's my first blog post using jupyter notebooks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+*
+* IPython notebook
+*
+*/.ansibold{font-weight:700}.ansiblack{}.ansired{color:#8b0000}.ansigreen{6400}.ansiyellow{color:#c4a000}.ansiblue{8b}.ansipurple{color:#9400d3}.ansicyan{color:#4682b4}.ansigray{color:gray}.ansibgblack{background-}.ansibgred{background-color:red}.ansibggreen{background-color:green}.ansibgyellow{background-color:#ff0}.ansibgblue{background-f}.ansibgpurple{background-color:#ff00ff}.ansibgcyan{background-ff}.ansibggray{background-color:gray}div.cell{border:1px solid transparent;display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;border-radius:2px;box-sizing:border-box;-moz-box-sizing:border-box;border-width:thin;border-style:solid;width:100%;padding:5px;margin:0;outline:0}div.cell.selected{border-color:#ababab}@media print{div.cell.selected{border-color:transparent}}.edit_mode div.cell.selected{border-color:green}.prompt{min-width:14ex;padding:.4em;margin:0;font-family:monospace;text-align:right;line-height:1.21429em}div.inner_cell{display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1}@-moz-document url-prefix(){div.inner_cell{overflow-x:hidden}}div.input_area{border:1px solid #cfcfcf;border-radius:2px;background:#f7f7f7;line-height:1.21429em}div.prompt:empty{padding-top:0;padding-bottom:0}div.unrecognized_cell{padding:5px 5px 5px 0;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}div.unrecognized_cell .inner_cell{border-radius:2px;padding:5px;font-weight:700;color:red;border:1px solid #cfcfcf;background:#eaeaea}div.unrecognized_cell .inner_cell a,div.unrecognized_cell .inner_cell a:hover{color:inherit;text-decoration:none}@media (max-width:540px){.prompt{text-align:left}div.unrecognized_cell&gt;div.prompt{display:none}}div.code_cell{}div.input{page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}@media (max-width:540px){div.input{-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}}div.input_prompt{color:navy;border-top:1px solid transparent}div.input_area&gt;div.highlight{margin:.4em;border:none;padding:0;background-color:transparent}div.input_area&gt;div.highlight&gt;pre{margin:0;border:none;padding:0;background-color:transparent}.CodeMirror{line-height:1.21429em;font-size:14px;height:auto;background:0 0}.CodeMirror-scroll{overflow-y:hidden;overflow-x:auto}.CodeMirror-lines{padding:.4em}.CodeMirror-linenumber{padding:0 8px 0 4px}.CodeMirror-gutters{border-bottom-left-radius:2px;border-top-left-radius:2px}.CodeMirror pre{padding:0;border:0;border-radius:0}.highlight-base,.highlight-variable{}.highlight-variable-2{color:#1a1a1a}.highlight-variable-3{color:#333}.highlight-string{color:#BA2121}.highlight-comment{color:#408080;font-style:italic}.highlight-number{80}.highlight-atom{color:#88F}.highlight-keyword{color:green;font-weight:700}.highlight-builtin{color:green}.highlight-error{color:red}.highlight-operator{color:#A2F;font-weight:700}.highlight-meta{color:#A2F}.highlight-def{f}.highlight-string-2{color:#f50}.highlight-qualifier{color:#555}.highlight-bracket{color:#997}.highlight-tag{color:#170}.highlight-attribute{c}.highlight-header{f}.highlight-quote{90}.highlight-link{c}.cm-s-ipython span.cm-keyword{color:green;font-weight:700}.cm-s-ipython span.cm-atom{color:#88F}.cm-s-ipython span.cm-number{80}.cm-s-ipython span.cm-def{f}.cm-s-ipython span.cm-variable{}.cm-s-ipython span.cm-operator{color:#A2F;font-weight:700}.cm-s-ipython span.cm-variable-2{color:#1a1a1a}.cm-s-ipython span.cm-variable-3{color:#333}.cm-s-ipython span.cm-comment{color:#408080;font-style:italic}.cm-s-ipython span.cm-string{color:#BA2121}.cm-s-ipython span.cm-string-2{color:#f50}.cm-s-ipython span.cm-meta{color:#A2F}.cm-s-ipython span.cm-qualifier{color:#555}.cm-s-ipython span.cm-builtin{color:green}.cm-s-ipython span.cm-bracket{color:#997}.cm-s-ipython span.cm-tag{color:#170}.cm-s-ipython span.cm-attribute{c}.cm-s-ipython span.cm-header{f}.cm-s-ipython span.cm-quote{90}.cm-s-ipython span.cm-link{c}.cm-s-ipython span.cm-error{color:red}.cm-s-ipython span.cm-tab{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=')right no-repeat}div.output_wrapper{display:-webkit-box;-webkit-box-align:stretch;display:-moz-box;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;z-index:1}div.output_scroll{height:24em;width:100%;overflow:auto;border-radius:2px;-webkit-box-shadow:inset 0 2px 8px rgba(0,0,0,.8);box-shadow:inset 0 2px 8px rgba(0,0,0,.8);display:block}div.output_collapsed{margin:0;padding:0;display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}div.out_prompt_overlay{height:100%;padding:0 .4em;position:absolute;border-radius:2px}div.out_prompt_overlay:hover{-webkit-box-shadow:inset 0 0 1px #000;box-shadow:inset 0 0 1px #000;background:rgba(240,240,240,.5)}div.output_prompt{color:#8b0000}div.output_area{padding:0;page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}div.output_area .MathJax_Display{text-align:left!important}div.output_area div.output_area img,div.output_area svg{max-width:100%;height:auto}div.output_area img.unconfined,div.output_area svg.unconfined{max-width:none}.output{display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}@media (max-width:540px){div.output_area{-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}}div.output_area pre{margin:0;padding:0;border:0;vertical-align:baseline;background-color:transparent;border-radius:0}div.output_subarea{overflow-x:auto;padding:.4em;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1;max-width:calc(100% - 14ex)}div.output_text{text-align:left;line-height:1.21429em}div.output_stderr{background:#fdd}div.output_latex{text-align:left}div.output_javascript:empty{padding:0}.js-error{color:#8b0000}div.raw_input_container{font-family:monospace;padding-top:5px}span.raw_input_prompt{}input.raw_input{font-family:inherit;font-size:inherit;color:inherit;width:auto;vertical-align:baseline;padding:0 .25em;margin:0 .25em}input.raw_input:focus{box-shadow:none}p.p-space{margin-bottom:10px}div.output_unrecognized{padding:5px;font-weight:700;color:red}div.output_unrecognized a,div.output_unrecognized a:hover{color:inherit;text-decoration:none}.rendered_html{}.rendered_html :link,.rendered_html :visited,.rendered_html h1:first-child{margin-top:.538em}.rendered_html h2:first-child{margin-top:.636em}.rendered_html h3:first-child{margin-top:.777em}.rendered_html h4:first-child,.rendered_html h5:first-child,.rendered_html h6:first-child{margin-top:1em}.rendered_html *+ol,.rendered_html *+ul{margin-top:1em}.rendered_html *+table{margin-top:1em}.rendered_html *+p{margin-top:1em}.rendered_html *+img{margin-top:1em}div.text_cell{display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}@media (max-width:540px){div.text_cell&gt;div.prompt{display:none}}div.text_cell_render{outline:0;resize:none;width:inherit;border-style:none;padding:.5em .5em .5em .4em;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}a.anchor-link:link{text-decoration:none;padding:0 20px;visibility:hidden}h1:hover .anchor-link,h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link,h5:hover .anchor-link,h6:hover .anchor-link{visibility:visible}.text_cell.rendered .input_area{display:none}.text_cell.rendered .text_cell.unrendered .text_cell_render{display:none}.cm-header-1,.cm-header-2,.cm-header-3,.cm-header-4,.cm-header-5,.cm-header-6{font-weight:700;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}.cm-header-1{font-size:185.7%}.cm-header-2{font-size:157.1%}.cm-header-3{font-size:128.6%}.cm-header-4{font-size:110%}.cm-header-5,.cm-header-6{font-size:100%;font-style:italic}&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Hello"&gt;Hello&lt;a class="anchor-link" href="#Hello"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Here's my first blog post using jupyter notebooks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [5]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;rint_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;lst&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;lst&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[6]:&lt;/div&gt;
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;[1, 32, 72]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [12]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;plt&lt;/span&gt;
+
+&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="k"&gt;matplotlib&lt;/span&gt; inline
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [20]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hist&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rint_list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[20]:&lt;/div&gt;
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;(array([  6.,   9.,  12.,   9.,   8.,  10.,  10.,  11.,   6.,  19.]),
+ array([   3. ,   12.7,   22.4,   32.1,   41.8,   51.5,   61.2,   70.9,
+          80.6,   90.3,  100. ]),
+ &lt;a list of 10 patch objects&gt;)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_png output_subarea "&gt;
+&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgkAAAFkCAYAAACq4KjhAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAAPYQAAD2EBqD+naQAAFWxJREFUeJzt3X2sZGd9H/Dvzxh7Y0deJyy2i2ATwGG7qVLCrgM4xYbG
+oW6I4jSKRLhhhVrUKhRI6aoSKWooFNS8EMESEpBo2hJgYSteRAHJwQmE0kDAFt5gGnNZJ6nJbfAL
+HjBrgrPG2E//OLNw9+6zL/fuzJ25ez8fabQ75zwz53d/ujP3O+ecOU+11gIAsNI5sy4AAJhPQgIA
+0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0LWqkFBVr6iqm6rqvqq6u6o+UFVP
+WjHm/Kp6c1WNquobVfW+qrpksmUDANO22j0JVyX5nSRPS/KTSR6Z5A+r6nuWjXljkp9O8vNJrk7y
+mCTvP/NSAYD1VGcywVNVbUvylSRXt9Y+WVUXJbknyfNaax8Yj9mRZDHJ01trN02gZgBgHZzpOQkX
+J2lJvja+vzvJuUk+dnRAa+1QkqUkV57htgCAdXTuWh9YVZXh0MInW2tfGC++LMm3Wmv3rRh+93hd
+73keleTaJF9KcmSt9QDAJrQlyQ8muaG19tVJP/maQ0KStyT54STPOI2xlWGPQ8+1Sd51BnUAwGb3
+/CTvnvSTrikkVNXvJnlOkqtaa3csW3VXkvOq6qIVexMuybA3oedLSbJ///7s3LlzLeVsWnv37s2+
+fftmXcaGomdro2+rp2dro2+rs7i4mD179iTjv6WTtuqQMA4IP5vkma21pRWrb07y7STXJDl64uKT
+kmxP8ukTPOWRJNm5c2d27dq12nI2ta1bt+rZKunZ2ujb6unZ2ujbmk3lcP2qQkJVvSXJQpLrknyz
+qi4drzrcWjvSWruvqv5bkjdU1b1JvpHkTUk+5ZsNALCxrHZPwosynFvwv1Ys/xdJ3jH+/94kDyV5
+X5Lzk3wkyUvWXiIAMAurCgmttVN+ZbK19kCSXx7fAIANytwNG9jCwsKsS9hw9Gxt9G319Gxt9G2+
+nNEVFydSQNWuJDfffPPNTlYBgFU4ePBgdu/enSS7W2sHJ/389iQAAF1CAgDQJSQAAF1CAgDQJSQA
+AF1CAgDQJSQAAF1nMlU0ABvU0tJSRqPRrMs4zrZt27J9+/ZZl8GYkACwySwtLWXHjp05cuT+WZdy
+nC1bLsihQ4uCwpwQEgA2mdFoNA4I+5PsnHU5yyzmyJE9GY1GQsKcEBIANq2dSVwOnxNz4iIA0CUk
+AABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABd
+QgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA
+0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUk
+AABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABdQgIA0CUkAABd
+QgIA0LXqkFBVV1XVh6rqy1X1cFVdt2L928bLl9+un1zJAMB6WMuehAuTfC7JS5K0E4z5gySXJrls
+fFtYU3UAwMycu9oHtNY+kuQjSVJVdYJhD7TW7jmTwgCA2ZrWOQnPqqq7q+qLVfWWqvr+KW0HAJiS
+Ve9JOA1/kOT9SW5P8sQkv57k+qq6srV2osMTAMCcmXhIaK29Z9ndW6vq/yT5qyTPSvLxSW8PAJiO
+aexJOEZr7faqGiW5PCcJCXv37s3WrVuPWbawsJCFBec8AsCBAwdy4MCBY5YdPnx4qtucekioqscm
+eVSSO082bt++fdm1a9e0ywGADan3wfngwYPZvXv31La56pBQVRdm2Ctw9JsNT6iqJyf52vj2qgzn
+JNw1HvebSW5LcsMkCgYA1sda9iRckeGwQRvfXj9e/vYkL07yD5O8IMnFSe7IEA7+Y2vtwTOuFgBY
+N2u5TsIncvKvTv7TtZcDAMwLczcAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQA
+AF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1C
+AgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQ
+JSQAAF1CAgDQJSQAAF1CAgDQJSQAAF1CAgDQde6sC2C6lpaWMhqNZl3GcbZt25bt27fPugwATkJI
+OIstLS1lx46dOXLk/lmXcpwtWy7IoUOLggLAHBMSzmKj0WgcEPYn2TnrcpZZzJEjezIajYQEgDkm
+JGwKO5PsmnURAGwwTlwEALqEBACgS0gAALqEBACgS0gAALqEBACgS0gAALqEBACgS0gAALqEBACg
+S0gAALqEBACgywRPwFljaWkpo9Fo1mUcZ9u2bWY8ZUMSEoCzwtLSUnbs2DmeHn2+bNlyQQ4dWhQU
+2HCEBOCsMBqNxgFhf4bp0efFYo4c2ZPRaCQksOEICcBZZmeSXbMuAs4KTlwEALqEBACgS0gAALqE
+BACgS0gAALqEBACgS0gAALpWHRKq6qqq+lBVfbmqHq6q6zpjXlNVd1TV/VX1R1V1+WTKBQDWy1r2
+JFyY5HNJXpKkrVxZVb+S5KVJfinJU5N8M8kNVXXeGdQJAKyzVV9xsbX2kSQfSZKqqs6QlyV5bWvt
+w+MxL0hyd5J/luQ9ay8VAFhPEz0noaoen+SyJB87uqy1dl+SG5NcOcltAQDTNem5Gy7LcAji7hXL
+7x6vA1ZpHqc/fuCBB3L++efPuoxjLC4uzroEOOus1wRPlc75C8vt3bs3W7duPWbZwsJCFhYWplkX
+zLX5nf74EUkemnURsKkcOHAgBw4cOGbZ4cOHp7rNSYeEuzIEgktz7N6ES5L82ckeuG/fvuzaZeY2
+WG4+pz++PskrM181Jd+tC85OvQ/OBw8ezO7du6e2zYmGhNba7VV1V5Jrknw+SarqoiRPS/LmSW4L
+Npd5mv746G79eaop+W5dwKSsOiRU1YVJLs+wxyBJnlBVT07ytdba/0vyxiS/WlV/meRLSV6b5G+S
+fHAiFQMA62ItexKuSPLxDOcYtCSvHy9/e5IXttZeV1UXJHlrkouT/EmSn2qtfWsC9QIA62Qt10n4
+RE7x1cnW2quTvHptJQEA88DcDQBAl5AAAHQJCQBAl5AAAHQJCQBAl5AAAHQJCQBAl5AAAHQJCQBA
+13pNFX3WW1paymg0mnUZx1hcnO8Jb+atvm3btmX79u2zLgNgbggJE7C0tJQdO3aOp/Tl1O5Mck72
+7Nkz60KOsWXLBTl0aFFQABgTEiZgNBqNA8L+DNPnzovrk7xy1kV0fD3Jw5mvfi3myJE9GY1GQgLA
+mJAwUTuT7Jp1EcvM1+78481bvwBYzomLAECXkAAAdAkJAECXkAAAdAkJAECXkAAAdAkJAECXkAAA
+dAkJAECXkAAAdAkJAECXuRtgmXmbvnre6gE2FyEBkszr9NUAsyQkQJL5nL46md/pvoHNQEiAY8zb
+9NUONwCz48RFAKBLSAAAuoQEAKBLSAAAuoQEAKBLSAAAuoQEAKBLSAAAuoQEAKBLSAAAuoQEAKBL
+SAAAuoQEAKBLSAAAuoQEAKBLSAAAuoQEAKBLSAAAuoQEAKBLSAAAuoQEAKBLSAAAuoQEAKBLSAAA
+uoQEAKBLSAAAuoQEAKDr3FkXsFr33HNPbr311lmXcYzbbrtt1iUAc25xcXHWJXzHPNXCfNtwIeHZ
+z35Obrnls7MuA+A03ZnknOzZs2fWhcCqbbiQcOeddyb55ST/ZtalLPO2JL826yKAufT1JA8n2Z9k
+54xrOer6JK+cdRFsABsuJAy+P8nlsy5imUfPugBg7u1MsmvWRYw53MDpceIiANAlJAAAXUICANAl
+JAAAXUICANAlJAAAXUICANAlJAAAXRMPCVX1qqp6eMXtC5PeDgAwXdO64uKfJ7kmSY3vf3tK2wEA
+pmRaIeHbrbV7pvTcAMA6mNY5CT9UVV+uqr+qqv1V9bgpbQcAmJJphITPJPnnSa5N8qIkj0/yv6vq
+wilsCwCYkokfbmit3bDs7p9X1U1J/jrJczPMqdy1d+/ebN269ZhlCwsLWVhYmHSJALDhHDhwIAcO
+HDhm2eHDh6e6zalPFd1aO1xVt+UUczvv27cvu3bNyzSqADBfeh+cDx48mN27d09tm1O/TkJVfW+S
+Jya5c9rbAgAmZxrXSfitqrq6qn6gqn48yQcyfAXywCkeCgDMkWkcbnhskncneVSSe5J8MsnTW2tf
+ncK2AIApmcaJi840BICzgLkbAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAu
+IQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA
+6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BIS
+AIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAu
+IQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIQEA
+6BISAIAuIQEA6BISAIAuIQEA6BISAIAuIWFDOzDrAjYgPVsbfVs9PWPjm1pIqKqXVNXtVfV3VfWZ
+qvqxaW1r8/ImtHp6tjb6tnp6xsY3lZBQVb+Q5PVJXpXkKUluSXJDVW2bxvYAgMmb1p6EvUne2lp7
+R2vti0lelOT+JC+c0vYAgAmbeEioqkcm2Z3kY0eXtdZako8muXLS2wMApuPcKTzntiSPSHL3iuV3
+J9nRGb8lSRYXF0/ryR988FtJbk7yX9Ze4cT96fjf65Oc3s8xGX+T5F0nWf+p8b/rXdepzLKuE/VM
+r05ued/mpaaV5q2uoz2bt7qS+awpSW5Pcvp/DzimV1um8fw1fMif4BNW/b0kX05yZWvtxmXLX5fk
+Ga21H18x/hdz8r90AMDJPb+19u5JP+k09iSMkjyU5NIVyy/J8XsXkuSGJM9P8qUkR6ZQDwCcrbYk
++cEMf0snbuJ7EpKkqj6T5MbW2svG9yvJUpI3tdZ+a+IbBAAmbhp7EpLkDUneXlU3J7kpw7cdLkjy
++1PaHgAwYVMJCa2194yvifCaDIcdPpfk2tbaPdPYHgAweVM53AAAbHzmbgAAuoQEAKBr5iHBRFAn
+VlWvqKqbquq+qrq7qj5QVU9aMeb8qnpzVY2q6htV9b6qumRWNc+bcQ8frqo3LFumZx1V9Ziqeue4
+L/dX1S1VtWvFmNdU1R3j9X9UVZfPqt5Zq6pzquq1VfV/x/34y6r61c64Td2zqrqqqj5UVV8evxav
+64w5aY+q6vuq6l1Vdbiq7q2q/1pVF67fT7H+Tta3qjq3qn6zqj5fVX87HvP28XWKlj/HGfdtpiHB
+RFCndFWS30nytCQ/meSRSf6wqr5n2Zg3JvnpJD+f5Ookj0ny/nWucy6NA+e/yvB7tZyerVBVF2e4
+DN8DSa5NsjPJv0ty77Ixv5LkpUl+KclTk3wzw+v1vHUveD78+wy9eHGSv5/k5UleXlUvPTpAz5Ik
+F2Y4ef0lSY47Ce40e/TuDL+T12R47V6d5K3TLXvmTta3C5L8aJL/lOFv589luKLxB1eMO/O+tdZm
+dkvymSS/vex+ZbiW6ctnWde83jJc8vrhDFeuTJKLMryp/9yyMTvGY54663pn3KvvTXIoyU8k+XiS
+N+jZSfv1G0k+cYoxdyTZu+z+RUn+LslzZ13/jHr24SS/t2LZ+5K8Q89O2LOHk1y3YtlJezT+I/dw
+kqcsG3Ntkm8nuWzWP9Os+tYZc0WGCxk+dpJ9m9meBBNBrcnFGRLl18b3d2f4GuvyHh7KcOGqzd7D
+Nyf5cGvtj1csvyJ61vMzST5bVe8ZH9o6WFX/8ujKqnp8kstybN/uS3JjNm/f/jTJNVX1Q0lSVU9O
+8o8yTIigZ6fhNHv09CT3ttb+bNlDP5rhvfBp61TqRnD078PXx/cn0rdpXUzpdKx2IqhNbXzVyjcm
++WRr7QvjxZcl+db4RbXc3eN1m1JVPS/DrrgrOqsvjZ71PCHJv85w+O8/Z3gTeVNVHWmt7c/Qm5b+
+63Wz9u03Mnzq/WJVPZTh8O1/aK39j/F6PTu10+nRZUm+snxla+2hqvpa9DHJcJ5Vht/Hd7fW/na8
+eCJ9m2VIOJFK57gVeUuSH07yjNMYu2l7WFWPzRCmnt1ae3A1D80m7dnYOUluaq29cnz/lqr6BxmC
+w/6TPG4z9+0Xkvxikucl+UKGYPrbVXVHa+2dJ3ncZu7Z6TqdHuljhpMYk7w3Qy9efDoPySr6NssT
+F1c7EdSmVVW/m+Q5SZ7VWrtj2aq7kpxXVReteMhm7uHuJI9OcnNVPVhVDyZ5ZpKXVdW3MvTlfD07
+zp05fs7gxSTbx/+/K8Obi9frd70uya+31t7bWru1tfauJPuSvGK8Xs9O7XR6dNf4/ndU1SOSfF82
+eR+XBYTHJfkny/YiJBPq28xCwvhT3s0ZzrpM8p1d6tdkONZHvhMQfjbJP26tLa1YfXOGk1CW9/BJ
+Gd7YP71uRc6Xjyb5kQyf6p48vn02w6fho/9/MHq20qdy/GG+HUn+Oklaa7dneNNZ3reLMhyW2Kyv
+1wty/CeyhzN+X9WzUzvNHn06ycVV9ZRlD70mQ7i4cZ1KnTvLAsITklzTWrt3xZDJ9G3GZ2w+N8NZ
+rC/I8BWityb5apJHz/ps0nm4ZTjEcG+Gr0Jeuuy2ZcWY25M8K8On6E8l+ZNZ1z5Ptyz7doOenbBH
+V2T41scrkjwxw270byR53rIxLx+/Pn8mQxD7n0n+Isl5s65/Rj17W4YTXp+T5AcyfA3tK0l+Tc+O
+6dOFGQL6j2YIUf92fP9xp9ujDCeDfjbJj2U4OfRQknfO+mebVd8ynM/3wQwh/kdW/H145CT7Ng+N
+eHGSL43DwqeTXDHrmublNv7FeKhze8GyMednuJbCaPym/t4kl8y69nm6JfnjFSFBz/p9ek6Szye5
+P8mtSV7YGfPqDF9Zuz/D/PWXz7ruGfbrwgwz3t6e4bv9f5Hhe+vn6tkxP/8zT/Be9t9Pt0cZztzf
+n+Rwhg9Ov5fkgln/bLPqW4ZQunLd0ftXT7JvJngCALpmfllmAGA+CQkAQJeQAAB0CQkAQJeQAAB0
+CQkAQJeQAAB0CQkAQJeQAAB0CQkAQJeQAAB0/X9gxg3RnNlsBwAAAABJRU5ErkJggg==
+"&gt;
+&lt;/img&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="That's-all-for-now"&gt;That's all for now&lt;a class="anchor-link" href="#That's-all-for-now"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: 'center'," +
+        "    displayIndent: '0em'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['$','$'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+        "    } " +
+        "}); ";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;
+</content><category term="python firsts"></category></entry></feed>
