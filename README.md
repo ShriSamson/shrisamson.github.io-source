@@ -1,2 +1,2 @@
-# shrisamson.github.io
-Personal blog
+# shrisamson.github.io-source
+Source code for personal Pelican blog
